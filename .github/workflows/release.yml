@@ -13,8 +13,6 @@ jobs:
         include:
           - os: ubuntu-latest
           - os: windows-latest
-          - os: macos-latest # ARM
-          - os: macos-13 # Intel
 
     steps:
       - uses: actions/checkout@v4
